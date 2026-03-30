@@ -7,6 +7,7 @@ API_KEY = "sk-prod-abc123xyz789secretkey"
 BASE_URL = "https://api.example.com"
 OPENAI_API_KEY="sk-dev-yehwbwjwjwwnwuuwsecret-key"
 
+
 def get_data(endpoint):
     response = requests.get(f"{BASE_URL}/{endpoint}",
                            headers={"Authorization": f"Bearer {API_KEY}"})
